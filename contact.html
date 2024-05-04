@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    
+</head>
+<body>
+    <nav id = "nav">
+        <a href = "index.html"><img src = "logo.jpg" id = "logo" ></a>
+          <a href="index.html" class="nav-link">Home</a>
+        <a href="store.html" class="nav-link" >Store</a>
+         <a href="contact.html" class="nav-link" style="color: #c35515;font-size:20px">Contact Us</a>
+        </nav>
+        <div id="contact-body">
+        <div style="background-color: #151e3d;">
+            <br></div>
+            <div id="contact-body">
+    <h1>Get in Touch with Us Today!</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br>
+
+        </fieldset>
+    
+    
+        <fieldset>
+            <legend>Choose the product you like to purchase</legend>
+            <select id="store-items" name="store-items">
+                <option value="" disabled selected>GPU</option>
+                <option value="ASUS TUF Gaming Radeon RX 7900 XT OC Edition 20GB GDDR6 Graphics Card">ASUS TUF Gaming Radeon RX 7900 XT OC Edition 20GB GDDR6 Graphics Card</option>
+                <option value="
+                ASUS Dual Radeon™ RX 7700 XT OC Edition 12GB GDDR6 Graphics Card">
+                ASUS Dual Radeon™ RX 7700 XT OC Edition 12GB GDDR6 Graphics Card
+                </option>
+                <option value="Gigabyte Radeon™ RX 7700 XT GAMING OC 12GB GDDR6 Graphics Card">Gigabyte Radeon™ RX 7700 XT GAMING OC 12GB GDDR6 Graphics Card</option>
+                <option value="Gigabyte Radeon™ RX 7900 XTX Gaming OC 24GB GDDR6 Graphics Card">Gigabyte Radeon™ RX 7900 XTX Gaming OC 24GB GDDR6 Graphics Card</option>
+            </select><br>
+            <select id="store-items" name="store-items" >
+                <option value="" disabled selected>Motherboard</option>
+                <option value="Aorus X670E Master Gaming Motherboard">Aorus X670E Master Gaming Motherboard</option>
+                <option value="Aorus B650E Master Gaming Motherboard">Aorus B650E Master Gaming Motherboard</option>
+                <option value="Asus Prime B450M-KII ATX Motherboard">Asus Prime B450M-KII ATX Motherboard</option>
+                <option value="Asus Prime H610M-D D4 Motherboard">Asus Prime H610M-D D4 Motherboard</option>
+            </select><br>
+            <select id="store-items" name="store-items">
+                <option value="" disabled selected>CPU Coolers</option>
+                <option value="DeepCool AK400 Digital CPU Cooler">DeepCool AK400 Digital CPU Cooler </option>
+                <option value="DeepCool AK620 Digital CPU Cooler">DeepCool AK620 Digital CPU Cooler</option>
+                <option value="
+                Cooler Master Masterliquid ML360 Illusion CPU Liquid Cooler">Cooler Master Masterliquid ML360 Illusion CPU Liquid Cooler</option>
+                <option value="
+                Cooler Master Masterliquid ML240 Illusion CPU Liquid Cooler">Cooler Master Masterliquid ML240 Illusion CPU Liquid Cooler</option>
+            </select><br>
+            <select id="store-items" name="store-items">
+                <option value="" disabled selected>Mechanical Keyboard</option>
+                <option value="iQUNIX F96 Knight Wired RGB Mechanical Keyboard [Cherry MX Red]">iQUNIX F96 Knight Wired RGB Mechanical Keyboard [Cherry MX Red]</option>
+                <option value="iQUNIX F96 KAT Wired RGB Mechanical Keyboard [Cherry MX Brown]">iQUNIX F96 KAT Wired RGB Mechanical Keyboard [Cherry MX Brown]</option>
+                <option value="
+                iQUNIX F96 Coral Sea Wired RGB Mechanical Keyboard [Cherry MX Red]">
+                iQUNIX F96 Coral Sea Wired RGB Mechanical Keyboard [Cherry MX Red]</option>
+                <option value="iQUNIX S87 Non-Backlit Wired Hot-Swappable Mechanical Keyboard Black [Cherry Brown]">iQUNIX S87 Non-Backlit Wired Hot-Swappable Mechanical Keyboard Black [Cherry Brown]</option>
+            </select><br>
+        </fieldset>
+        
+    
+        <fieldset>
+            <legend>Choose your payment option</legend><br>
+            <label for="cards">
+                <input type="radio" id="cards" name="payment" value="Credit and debit cards">
+                Credit and debit cards
+            </label><br>
+            <label for="mobile">
+                <input type="radio" id="mobile" name="payment" value="Mobile wallets"> Mobile wallets
+            </label><br>
+            <label for="bank">
+                <input type="radio" id="bank" name="payment" value="Bank transfer"> Bank transfer
+            </label><br>
+            <label for="cash">
+                <input type="radio" id="cash" name="payment" value="Cash">Cash
+            </label><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Message</legend>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Feedback</legend>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Feedback"></textarea><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Comments</legend>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Comments"></textarea><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Suggestions</legend>
+            <textarea id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Suggestions"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend>Subscribe to Newsletter</legend>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label style="display: inline-block; margin-right: 10px;" for="subscribe">Yes, I want to subscribe to the newsletter</label>
+        </fieldset>
+    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1962.5582577505413!2d123.90562398719707!3d10.332559708315275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999a1537eba45%3A0x58cf0c7e7276630d!2sPC%20Express!5e0!3m2!1sen!2sph!4v1714429603353!5m2!1sen!2sph" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <div class="footer-container">
+          <div class="logo">
+            <img src="logo1.jpg" alt="Company Logo">
+          </div>
+          <div class="contact-info">
+            <p>TechTrove Components</p>
+            <p>Address: Apas Street, Cebu City, Cebu 6000</p>
+            <p>Phone: +63 945-495-9456</p>
+            <p>Email: info@techtrove.com</p>
+          </div>
+          
+        </div>
+      </footer>
+</body>
+</html>
